@@ -61,7 +61,7 @@ Table: Hits Data
 |hits.product.productSKU|	STRING|	Product SKU|
 |hits.product.v2ProductName|	STRING|	Product Name|
 
-## III. Dataset
+## III. Main Process
 
 1️⃣ Data Cleaning & Preprocessing
 * Ensured session and transaction data integrity
