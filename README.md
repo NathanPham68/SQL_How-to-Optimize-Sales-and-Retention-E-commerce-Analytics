@@ -162,5 +162,7 @@ Order results by month desc, ratio desc. Round Ratio to 1 decimal
 
 ## V. Conclusion
 ✔️ Enhance the product page experience to lower bounce rates.
+
 ✔️ Deliver personalized offers to highly engaged users.
+
 ✔️ Streamline the checkout process to minimize cart abandonment.
