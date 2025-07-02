@@ -1,6 +1,79 @@
 # [SQL] bicycle_manufacturer
 
 ## I. Introduction
+🎯 Objective:
+This project examines sales, customer retention, and inventory patterns in AdventureWorks to:
+
+✔️ Assess sales performance and trends in category growth.
+
+✔️ Pinpoint top-performing territories and evaluate the impact of seasonal discounts.
+
+✔️ Evaluate inventory levels and stock-to-sales ratios for optimization.
+
+✔️ Study customer retention trends to enhance loyalty programs.
+
+👤 Who is this project for?
+
+✔️ Sales & Marketing Teams
+
+✔️ Supply Chain & Inventory Managers
+
+✔️ Business Analysts & Decision-makers
+
+## II. Dataset
+
+📂 Dataset Access
+
+The eCommerce dataset is stored in a public Google BigQuery dataset. To access the dataset, follow these steps:
+
+* Sign in to your Google Cloud Platform account and create a new project.
+* Navigate to the BigQuery dashboard and select your newly created project.
+* In the navigation panel, select "Add Data" and then select "Search Projects".
+* Enter the project ID "adventureworks2019" and click "Enter".
+* Click on the table "adventureworks" to the dataset.
+
+📂 Table Schema & Data Snapshot
+
+Table: Session Data
+
+| Column Name |	Data Type |	Description |
+| ---         | ---       | ---         |
+|fullVisitorId|	STRING|	Unique visitor ID|
+|date|	STRING|	Session date in YYYYMMDD format|
+|totals|	RECORD|	Aggregated session metrics|
+|totals.bounces|	INTEGER|	1 if session bounced, else NULL|
+|totals.hits|	INTEGER|	Total number of hits in the session|
+|totals.pageviews|	INTEGER|	Total number of pageviews|
+|totals.visits|	INTEGER|	1 for interactive sessions, NULL otherwise|
+|totals.transactions|	INTEGER|	Total number of e-commerce transactions|
+|traffic.source|	STRING|	Traffic source (e.g., search engine, URL, referrer)|
+
+Table: Hits Data
+
+| Column Name |	Data Type |	Description |
+| ---         | ---       | ---         |
+|hits|	RECORD|	Contains details of individual hits|
+|hits.eCommerceAction|	RECORD|	All e-commerce actions during the session|
+|hits.eCommerceAction.action_type|	STRING|	Action type (view, add-to-cart, checkout, purchase, etc.)|
+|hits.product|	RECORD|	Nested product details for e-commerce transactions|
+|hits.product.productQuantity|	INTEGER|	Quantity of product purchased|
+|hits.product.productRevenue|	INTEGER|	Revenue from product purchase (scaled by 10^6)|
+|hits.product.productSKU|	STRING|	Product SKU|
+|hits.product.v2ProductName|	STRING|	Product Name|
+
+## III. Dataset
+
+1️⃣ Data Cleaning & Preprocessing
+* Ensured session and transaction data integrity
+* Filtered out incomplete or irrelevant records
+
+2️⃣ Exploratory Data Analysis (EDA)
+* Analyzed bounce rates, page views, and transactions
+* Identified key e-commerce actions and trends
+
+3️⃣ SQL Analysis
+* Used window functions, joins, and aggregations to extract insights
+* Created queries for session behavior and revenue analysis
 
 ## IV. Exploring the Dataset
 ### Query 01: Calculate Quantity of items, Sales value & Order quantity by each Subcategory in L12M
@@ -87,3 +160,7 @@ Order results by month desc, ratio desc. Round Ratio to 1 decimal
 
 ![image](https://github.com/user-attachments/assets/cbcc398b-1813-48e4-af2b-40225f0827fd)
 
+## V. Conclusion
+✔️ Enhance the product page experience to lower bounce rates.
+✔️ Deliver personalized offers to highly engaged users.
+✔️ Streamline the checkout process to minimize cart abandonment.
