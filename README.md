@@ -1,7 +1,14 @@
 # [SQL] bicycle_manufacturer
 
 ## I. Introduction
-🎯 Objective:
+🎉Overview:
+This project aims to provide insights and visualizations into the AdventureWorks database, which is a sample database provided by Microsoft for learning and testing purposes.
+
+The AdventureWorks database contains data related to a fictitious bicycle manufacturer, including information on products, sales, customers, and employees. In this project, we will use console.cloud.google to analyze the data in order to gain a better understanding of the business operations of AdventureWorks.
+
+To get started with this project, we will need to have access to the AdventureWorks database and have Google Cloud Platform account.
+
+🏹 Objective:
 This project examines sales, customer retention, and inventory patterns in AdventureWorks to:
 
 ✔️ Assess sales performance and trends in category growth.
@@ -22,7 +29,7 @@ This project examines sales, customer retention, and inventory patterns in Adven
 
 ## II. Dataset
 
-📂 Dataset Access
+📂 Dataset Access - [AdventureWorksDW2019.bak](https://learn.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver16&tabs=ssms)
 
 The eCommerce dataset is stored in a public Google BigQuery dataset. To access the dataset, follow these steps:
 
@@ -31,6 +38,9 @@ The eCommerce dataset is stored in a public Google BigQuery dataset. To access t
 * In the navigation panel, select "Add Data" and then select "Search Projects".
 * Enter the project ID "adventureworks2019" and click "Enter".
 * Click on the table "adventureworks" to the dataset.
+
+📂 Requirements
+* Query Editing Tool - Microsoft SQL Server Management Studio (SSMS)
 
 📂 Table Schema & Data Snapshot
 
