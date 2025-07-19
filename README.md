@@ -1,5 +1,7 @@
 # [SQL] bicycle_manufacturer
 
+<img width="626" height="225" alt="image" src="https://github.com/user-attachments/assets/7c7847fd-84a5-4818-a6a7-64fd8c066f13" />
+
 ## I. Introduction
 🎉Overview:
 This project aims to provide insights and visualizations into the AdventureWorks database, which is a sample database provided by Microsoft for learning and testing purposes.
