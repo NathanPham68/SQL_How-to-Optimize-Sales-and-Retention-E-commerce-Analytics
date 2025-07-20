@@ -1,6 +1,6 @@
 # [SQL] bicycle_manufacturer
 
-<img width="626" height="225" alt="image" src="https://github.com/user-attachments/assets/7c7847fd-84a5-4818-a6a7-64fd8c066f13" />
+<img width="1920" height="800" alt="image" src="https://github.com/user-attachments/assets/db704c9a-cf77-4ee9-a422-e2d4ca0f885e" />
 
 ## I. Introduction
 🎉Overview:
