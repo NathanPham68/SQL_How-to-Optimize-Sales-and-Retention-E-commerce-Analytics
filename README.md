@@ -2,6 +2,17 @@
 
 <img width="1920" height="800" alt="image" src="https://github.com/user-attachments/assets/db704c9a-cf77-4ee9-a422-e2d4ca0f885e" />
 
+## Table of Contents
+I. [📌 Introduction](#I.-Introduction)
+
+II. [📂 Dataset](#II.-Dataset)
+
+III. [🧠 Main Process](#III.-Main-Process)
+
+IV. [📊 Exploring the Dataset](#IV.-Exploring-the-Dataset)
+
+V. [🔎 Final Conclusion](#V.-Conclusion)
+
 ## I. Introduction
 🎉Overview:
 This project aims to provide insights and visualizations into the AdventureWorks database, which is a sample database provided by Microsoft for learning and testing purposes.
