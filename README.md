@@ -1,4 +1,4 @@
-# [SQL] How to Optimize Sales and Retention? | E-commerce Analytics
+# [SQL] How to Optimize Sales and Retention? - E-commerce Analytics
 
 <img width="1920" height="800" alt="image" src="https://github.com/user-attachments/assets/db704c9a-cf77-4ee9-a422-e2d4ca0f885e" />
 
