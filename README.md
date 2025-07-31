@@ -57,7 +57,8 @@ The eCommerce dataset is stored in a public Google BigQuery dataset. To access t
 
 📂 Table Schema & Data Snapshot
 
-Table: Session Data
+<details>
+  <summary><strong>Table: Session Data</strong></summary>
 
 | Column Name |	Data Type |	Description |
 | ---         | ---       | ---         |
@@ -71,7 +72,10 @@ Table: Session Data
 |totals.transactions|	INTEGER|	Total number of e-commerce transactions|
 |traffic.source|	STRING|	Traffic source (e.g., search engine, URL, referrer)|
 
-Table: Hits Data
+</details>
+
+<details>
+  <summary><strong>Table: Hits Data</strong></summary>
 
 | Column Name |	Data Type |	Description |
 | ---         | ---       | ---         |
@@ -83,6 +87,8 @@ Table: Hits Data
 |hits.product.productRevenue|	INTEGER|	Revenue from product purchase (scaled by 10^6)|
 |hits.product.productSKU|	STRING|	Product SKU|
 |hits.product.v2ProductName|	STRING|	Product Name|
+
+</details>
 
 ## III. Main Process
 
